@@ -171,5 +171,5 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 
 ## 👍 Acknowledgment
-We extend our gratitude to the open-source efforts of [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL), and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+We extend our gratitude to the open-source efforts of [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen2.5-VL](https://github.com/QwenLM/Qwen3-VL), and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
 
