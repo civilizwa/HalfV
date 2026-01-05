@@ -11,7 +11,7 @@
 
 ## 🛠 Preparation
 ### LLaVA Series
-1. Enter 'lmms-eval-0.35v'
+1. Enter `lmms-eval-0.35v`
 ```Shell
 cd lmms-eval-0.35v
 ```
@@ -30,7 +30,7 @@ cd lmms-eval-0.35v
 ```
 
 ### Qwen25-VL
-1. Enter 'lmms-eval-0.35v'
+1. Enter `lmms-eval-0.35v`
 ```Shell
 cd lmms-eval-0.5v
 ```
@@ -84,7 +84,7 @@ accelerate launch --num_processes=1 --main_process_port=12346 -m lmms_eval  --mo
 You can directly run the code below to quickly reproduce the results in Fig. 2(a)–(d) of the paper.
 
 ### LLaVA Series
-1. In 'lmms-eval-0.35v/LLaVA/llava/model/language_model/llava_llama.py', replace
+1. In `lmms-eval-0.35v/LLaVA/llava/model/language_model/llava_llama.py`, replace
 ```Shell
 class LlavaLlamaModel(LlavaMetaModel, HalfVLlamaModel):
 ...
@@ -108,7 +108,7 @@ accelerate launch --num_processes=1 -m lmms_eval --model llava   --model_args pr
 CUDA_VISIBLE_DEVICES=0 
 accelerate launch --num_processes=1 -m lmms_eval --model llava   --model_args pretrained="liuhaotian/llava-v1.5-7b,device_map=auto"   --tasks mme  --batch_size 1 --cal_truncated_entropy True --limit 100
 ```
-We store the computed TME values for different modalities in 'whole_tme.csv', 'visual_tme.csv', and 'text_tme.csv'. To visualize the layer-wise TME curves, you can later fill in the corresponding file paths (for different models/modalities) in 'draw_code/layer_by_layer_3entropy.py' and 'draw_code/line_layer_by_layer.py', and then run the scripts to reproduce the figures.
+We store the computed TME values for different modalities in `whole_tme.csv`, `visual_tme.csv`, and `text_tme.csv`. To visualize the layer-wise TME curves, you can later fill in the corresponding file paths (for different models/modalities) in `draw_code/layer_by_layer_3entropy.py` and `draw_code/line_layer_by_layer.py`, and then run the scripts to reproduce the figures.
 
 4. Layer Redundancy
 ```Shell
@@ -116,7 +116,7 @@ CUDA_VISIBLE_DEVICES=0
 accelerate launch --num_processes=1 -m lmms_eval --model llava   --model_args pretrained="liuhaotian/llava-v1.5-7b,device_map=auto"   --tasks mme  --batch_size 1 --cal_kl True --limit 100
 ```
 ### Qwen Series
-1. In 'lmms-eval-0.5v/lmms_eval/models/simple/qwen25_halfv/modeling_qwen2_5_vl_self.py', replace
+1. In `lmms-eval-0.5v/lmms_eval/models/simple/qwen25_halfv/modeling_qwen2_5_vl_self.py`, replace
 ```Shell
 class Qwen2_5_VLModel(Qwen2_5_VLPreTrainedModel):
     ...
