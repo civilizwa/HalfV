@@ -4,7 +4,7 @@
 
 ## 👀 Overview
 <p align='center'>
-<img src='./figs/main.png' alt='mask' width='1000px'>
+<img src='figs/main.png' alt='mask' width='1000px'>
 </p>
 
 > **TLDR:** HalfV is a training-free, architecture-aware framework that breaks the "backbone dependency" of existing MLLM accelerators by identifying a universal three-stage inference lifecycle to decouple redundancy into universal Intrinsic Visual Redundancy (IVR) and architecture-specific Secondary Saturation Redundancy (SSR), employing a"prune-then-adapt" strategy to achieve superior efficiency-performance trade-offs across diverse architectures like Qwen and LLaVA.
@@ -79,7 +79,7 @@ accelerate launch --num_processes=1 --main_process_port=12346 -m lmms_eval  --mo
 
 ## 🎯 Reproduce Paper Results
 <p align='center'>
-<img src='./figs/fig2.png' alt='mask' width='1000px'>
+<img src='figs/fig2.png' alt='mask' width='1000px'>
 </p>
 You can directly run the code below to quickly reproduce the results in Fig. 2(a)–(d) of the paper.
 
