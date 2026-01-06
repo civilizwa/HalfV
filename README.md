@@ -165,11 +165,6 @@ CUDA_VISIBLE_DEVICES=0
 accelerate launch --num_processes=1 --main_process_port=12346 -m lmms_eval  --model qwen2_5_vl   --model_args=pretrained=/root/autodl-tmp/models/qwen2.5-vl-7b-instruct,max_pixels=12845056,interleave_visuals=False  --tasks mme  --batch_size 1 --cal_kl True --limit 100
 ```
 
-## 🔑 License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
-
 ## 👍 Acknowledgment
 We extend our gratitude to the open-source efforts of [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen2.5-VL](https://github.com/QwenLM/Qwen3-VL), and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
 
