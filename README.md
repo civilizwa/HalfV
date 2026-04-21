@@ -3,7 +3,8 @@
 </div>
 
 ## 🔥 News
-* **`2026.4.7`** 🤗🤗 Our HalfV is accepted at ACL'26 main!
+* **`2026.04.07`** 🤗🤗 Our HalfV is accepted at ACL'26 main!
+* **`2026.04.21`** 🤗🤗 We release our latest work [HalfV](https://arxiv.org/abs/2604.16462), a training-free, architecture-aware framework that breaks the "backbone dependency" of existing MLLM accelerators. [Code](https://github.com/civilizwa/HalfV) is available!
 
 ## 👀 Overview
 <p align='center'>
