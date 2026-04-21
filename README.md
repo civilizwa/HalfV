@@ -2,6 +2,9 @@
   <h1 style="display: inline-block; margin: 0;">From Inheritance to Saturation: Disentangling the Evolution of Visual Redundancy for Architecture-Aware MLLM Inference Acceleration</h1>
 </div>
 
+## 🔥 News
+* **`2026.4.7`** 🤗🤗 Our HalfV is accepted at ACL'26 main!
+
 ## 👀 Overview
 <p align='center'>
 <img src='figs/main.png' alt='mask' width='1000px'>
